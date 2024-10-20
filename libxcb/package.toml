@@ -1,0 +1,14 @@
+[meta]
+version = "1.17.0"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://xorg.freedesktop.org/archive/individual/lib/libxcb-1.17.0.tar.xz"]
+checksums = ["3dce3b8adc257177dfec9b6b6cf55eeac13921520dd6c372fd8f9d867600337b"]
+
+[deps]
+libXau = "*"
+xcb-proto = "*"
+
+[mkdeps]
+pkgconf = "*"
+python = "*"
+xorg-util-macros = "*"

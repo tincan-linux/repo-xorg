@@ -1,0 +1,9 @@
+[meta]
+version = "2024.1"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://x.org/releases/individual/proto/xorgproto-2024.1.tar.gz"]
+checksums = ["eace9012239f81e65158458e43610526371b57f2d58ea80ea6e5ea9046ee05f5"]
+
+[deps]
+
+[mkdeps]

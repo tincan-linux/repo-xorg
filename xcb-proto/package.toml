@@ -1,0 +1,10 @@
+[meta]
+version = "1.17.0"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://x.org/releases/individual/proto/xcb-proto-1.17.0.tar.gz"]
+checksums = ["3d55661cab9f26bd6f01c004af29df7180c69f263ce7180a58faa24f0b25351c"]
+
+[deps]
+
+[mkdeps]
+python = "*"

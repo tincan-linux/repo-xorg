@@ -1,0 +1,9 @@
+[meta]
+version = "1.20.1"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://www.x.org/pub/individual/util/util-macros-1.20.1.tar.xz"]
+checksums = ["515a528c51c89ebe6ac9d152728a057da19bb6bab35cf1bd1082de6b48e400fd"]
+
+[deps]
+
+[mkdeps]

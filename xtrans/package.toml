@@ -1,0 +1,10 @@
+[meta]
+version = "1.5.1"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://x.org/releases/individual/lib/xtrans-1.5.1.tar.xz"]
+checksums = ["5abcb41dcc990496e3e745fa39a38389c27c3857ac88b85e333b43ec66a8b8cf"]
+
+[deps]
+
+[mkdeps]
+pkgconf = "*"
