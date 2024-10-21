@@ -1,0 +1,13 @@
+[meta]
+version = "1.1.6"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://x.org/releases/individual/lib/libXdamage-1.1.6.tar.xz"]
+checksums = ["d3d75f2656027288f87b9ddda8bf019862c63c6e4aeadd92f45870df6c2a7ce9"]
+
+[deps]
+libX11 = "*"
+libXfixes = "*"
+
+[mkdeps]
+pkgconf = "*"
+xorg-proto = "*"
