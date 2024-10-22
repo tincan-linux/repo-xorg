@@ -1,0 +1,16 @@
+[meta]
+version = "24.2.5"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://mesa.freedesktop.org/archive/mesa-24.2.5.tar.xz"]
+checksums = ["6bb5308509f7e1650e7e7be9b03d339f56ffdd0667ce99d32a08736e96893d70"]
+
+[deps]
+expat = "*"
+libdrm = "*"
+libelf = "*"
+
+[mkdeps]
+bison = "*"
+flex = "*"
+python-mako = "*"
+python-yaml = "*"

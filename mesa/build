@@ -1,0 +1,23 @@
+#!/bin/sh -e
+
+export DESTDIR="$1"
+
+meson setup \
+    -Dprefix=/usr \
+    -Dsysconfdir=/etc \
+    -Dmandir=/usr/share/man \
+    -Dlocalstatedir=/var \
+    -Dbuildtype=release \
+    -Dglx-read-only-text=true \
+    -Dplatforms=wayland \
+    -Dglx=disabled \
+    -Degl=enabled \
+    -Dvalgrind=false \
+    -Dzstd=disabled \
+    -Dglvnd=false \
+    -Dvideo-codecs=vc1dec,h264dec,h264enc,h265dec,h265enc \
+    -Dvulkan-drivers='' \
+    output
+
+ninja -C output
+ninja -C output install
