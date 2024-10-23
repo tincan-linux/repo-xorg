@@ -3,12 +3,12 @@ version = "eed4902"
 maintainer = "AVS Origami"
 
 sources = [
-    "https://github.com/tinycorelinux/tinyx/archive/refs/heads/master.tar.gz",
+    "https://github.com/hovercats/tinyx/releases/download/pre-gen-eed4902840732f170a7020cedb381017de99f2e6/tinyx-eed4902840732f170a7020cedb381017de99f2e6.tar.gz",
     "https://github.com/kyx0r/repo-main/releases/download/tinyxfont_1.0/tinyxfont.tar.gz",
 ]
 
 checksums = [
-    "f29969078e1365305fdcd425551a3d00890a180243530c06e98eb4bed56927ab",
+    "6126c1285a84968a0a4c9caafdae653e51108a89d9f74d82a52bb24b90f3ba1e",
     "78fb9658f2ce79b689d57ae9dc3f9a19e4d0cb859a8d5b404f660eaa2b36a68e",
 ]
 
