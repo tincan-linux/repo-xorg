@@ -1,0 +1,13 @@
+[meta]
+version = "1.3.0"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://x.org/releases/individual/lib/libXt-1.3.0.tar.gz"]
+checksums = ["e4b3451aaaba6325b7b992df42077630446c7c0161b1d8ddbfb52070bb39b5ca"]
+
+[deps]
+libSM = "*"
+libX11 = "*"
+
+[mkdeps]
+pkgconf = "*"
+xorg-proto = "*"

@@ -1,0 +1,9 @@
+#!/bin/sh -e
+
+sed -i 's/Xorg/Xfbdev/;s/-keeptty//' sx
+
+mkdir -pv $1/usr/bin
+mkdir -pv $1/usr/share/man/man1
+
+cp sx $1/usr/bin/
+cp sx.1 $1/usr/share/man/man1/

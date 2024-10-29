@@ -1,0 +1,12 @@
+[meta]
+version = "1.2.4"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://x.org/releases/individual/lib/libSM-1.2.4.tar.gz"]
+checksums = ["1247e2d5ca3d85489b4edbc38060822ac7f6b9b1aed574b4f8f722f99d4bfa69"]
+
+[deps]
+libICE = "*"
+
+[mkdeps]
+pkgconf = "*"
+xtrans = "*"

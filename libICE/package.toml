@@ -1,0 +1,12 @@
+[meta]
+version = "1.1.1"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://x.org/releases/individual/lib/libICE-1.1.1.tar.gz"]
+checksums = ["d4679a072a23e0621a3646917b0f0df97544cfa99fa32fb61ca73a8d921e1e16"]
+
+[deps]
+
+[mkdeps]
+pkgconf = "*"
+xorg-proto = "*"
+xtrans = "*"

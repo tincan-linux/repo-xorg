@@ -1,0 +1,11 @@
+[meta]
+version = "3.0"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://github.com/Earnestly/sx/archive/refs/tags/3.0.tar.gz"]
+checksums = ["051a032c2dec07fe09bc700bd06a9da5f543c0344cd4f263bf439ec457c37411"]
+
+[deps]
+tinyx = "*"
+xauth = "*"
+
+[mkdeps]
