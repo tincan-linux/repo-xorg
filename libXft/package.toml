@@ -1,0 +1,14 @@
+[meta]
+version = "2.3.8"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://x.org/releases/individual/lib/libXft-2.3.8.tar.gz"]
+checksums = ["bcff239c6139ed140d45ed4358d430a910152929f7ecf9557db7eec454e26806"]
+
+[deps]
+
+[mkdeps]
+fontconfig = "*"
+freetype-harfbuzz = "*"
+libXrender = "*"
+pkgconf = "*"
+xorg-proto = "*"

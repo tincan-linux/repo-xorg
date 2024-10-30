@@ -1,0 +1,12 @@
+[meta]
+version = "0.9.11"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://x.org/releases/individual/lib/libXrender-0.9.11.tar.gz"]
+checksums = ["a81b16b0e483cccff3204a691a47e9d5959988d8852a47979503db06aa5a5114"]
+
+[deps]
+
+[mkdeps]
+libXext = "*"
+pkgconf = "*"
+xorg-proto = "*"
