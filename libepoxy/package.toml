@@ -1,0 +1,12 @@
+[meta]
+version = "1.5.10"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://github.com/anholt/libepoxy/archive/1.5.10.tar.gz"]
+checksums = ["df74575d2a4ca65bf98d15ed6357cb066b6369704137e53b5e1d35b6d582657e"]
+
+[deps]
+
+[mkdeps]
+libX11 = "*"
+mesa = "*"
+meson = "*"
