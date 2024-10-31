@@ -1,0 +1,12 @@
+[meta]
+version = "1.4.0"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://x.org/releases/individual/driver/xf86-input-libinput-1.4.0.tar.xz"]
+checksums = ["797cbe5668dd8bf704d2271e77d8c0866e79106c37ba49f4ee62d0bea96f017e"]
+
+[deps]
+libinput = "*"
+xorg-server = "*"
+
+[mkdeps]
+pkgconf = "*"
