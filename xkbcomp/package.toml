@@ -1,0 +1,12 @@
+[meta]
+version = "1.4.7"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://x.org/releases/individual/app/xkbcomp-1.4.7.tar.xz"]
+checksums = ["e6420ef168976726f8aa8cb362bc70dfe2bd810f2b33e5f71547ec182ed301ea"]
+
+[deps]
+
+[mkdeps]
+libX11 = "*"
+libxkbfile = "*"
+pkgconf = "*"

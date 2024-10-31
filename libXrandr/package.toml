@@ -1,0 +1,13 @@
+[meta]
+version = "1.5.4"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://x.org/releases/individual/lib/libXrandr-1.5.4.tar.xz"]
+checksums = ["c107a47d9c4329996d74d7a1ab8d254a2cf3aecea1575d7e146da9a06b762081"]
+
+[deps]
+libXext = "*"
+libXrender = "*"
+
+[mkdeps]
+pkgconf = "*"
+xorg-proto = "*"
