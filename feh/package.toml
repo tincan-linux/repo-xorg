@@ -1,0 +1,15 @@
+[meta]
+version = "3.10.3"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://feh.finalrewind.org/feh-3.10.3.tar.bz2"]
+checksums = []
+
+[deps]
+curl = "*"
+imlib2 = "*"
+libpng = "*"
+libX11 = "*"
+libXt = "*"
+libXinerama = "*"
+
+[mkdeps]
