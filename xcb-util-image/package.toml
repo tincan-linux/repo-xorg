@@ -1,0 +1,13 @@
+[meta]
+version = "0.4.1"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://x.org/releases/individual/xcb/xcb-util-image-0.4.1.tar.gz"]
+checksums = ["9aca6977c5fde46aa188c394c36389fc16e78fd6db5b88ea263abd98c7d9e3fb"]
+
+[deps]
+libXau = "*"
+libxcb = "*"
+xcb-util = "*"
+
+[mkdeps]
+pkgconf = "*"

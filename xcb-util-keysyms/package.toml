@@ -1,0 +1,12 @@
+[meta]
+version = "0.4.1"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://x.org/releases/individual/xcb/xcb-util-keysyms-0.4.1.tar.gz"]
+checksums = ["5c126cf650ea3853c788eb821a87ee4e07148eed381981b7027b1e95f036a305"]
+
+[deps]
+libxcb = "*"
+
+[mkdeps]
+pkgconf = "*"
+xcb-util = "*"
